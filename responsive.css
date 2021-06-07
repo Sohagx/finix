@@ -1,0 +1,298 @@
+span.var-icon {
+    display: none;
+}
+span.var-icons {
+    display: none;
+}
+i.fas.fa-bars {
+    display: none;
+}
+input#click {
+    display: none;
+}
+.navbar-toggler{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width:1288px) {
+    .header-call.clearfix {
+        display: none;
+    }
+    ul.our-primary-menu li a {
+        padding: 10px 12px;
+    }
+    
+}
+@media (max-width:1200px){
+    .team-info h6 {
+        margin-left: 75px;
+    }
+    .team-img {
+        text-align: center;
+    }
+    .team-info h5 {
+        margin-left: 75px;
+    }
+}
+@media (max-width:1024px) {
+    .our-primary-menu {
+        display: none;
+    }
+    span.var-icon {
+        display: block;
+    }
+    
+    .header-btn {
+        position: absolute;
+        right: 10%;
+    }
+    span.var-icon {
+        position: absolute;
+        right: 5%;
+        font-size: 30px;
+    }
+    .header-search {
+        position: absolute;
+        right: 30%;
+    }
+    .our-primary-menu {
+        display: block;
+        position: fixed;
+        top: 20%;
+        left: -100%;
+        background: #fff;
+        width: 160px;
+        transition: .4s;
+    }
+    ul.our-primary-menu li:hover ul {
+        width: 172px;
+        margin-bottom: -;
+        margin-left: 114px;
+    }
+    i.fas.fa-bars {
+        display: block;
+        border: none;
+    }
+    #click:checked ~ .our-primary-menu {
+        left: 0%;
+        top: 48px;
+    }
+    #click:checked ~.var-icon i::before {
+        content: "\f00d";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+    }
+    label.var-icon {
+        position: absolute;
+        right: 7%;
+        top: 0px;
+        font-size: 20px;
+    }
+    .team-img {
+        text-align: center;
+    }
+    .right-side h2 {
+        font-size: 17px;
+    }
+    .about-img-text p {
+        font-size: 18px;
+    }
+    
+    
+}
+@media (max-width:992px){
+    .team-info h6 {
+        margin-left: 189px;
+    }
+    .team-info h5 {
+        margin-left: 190px;
+    }
+    .team-img {
+        text-align: center;
+    }
+    .right-side h2 {
+        font-size: 28px;
+    }
+    .company-text-fast h2 {
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    .company-text h2 {
+        font-size: 25px;
+    }
+    .slider-content h1 {
+        color: #fff;
+        font-size: 35px;
+    }
+    a.for-imgs img {
+        width: 60%;
+    }
+}
+@media (max-width:768px) {
+    i.fas.fa-search {
+        display: none;
+    }
+    .team-img {
+        text-align: center;
+    }
+    .team-info h6 {
+        margin-left: 103px;
+    }
+    .team-info h5 {
+        margin-left: 101px;
+    }
+    .right-side h6 {
+        margin-top: 140px;
+    }
+    .right-side h2 {
+        font-size: 20px;
+    }
+    .right-side h4 {
+        color: #606060;
+        font-size: 17px;
+    }
+    ul.d-flex {
+        margin-left: -30px;
+    }
+    .slider-socal span {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    .slider-socal ul li a {
+        margin: 3px;
+    }
+    .slider-socal span::after {
+        content: "";
+        width: 15px;
+        left: 70px;
+    }
+    .slider-socal {
+        bottom: 30px;
+    }
+ 
+}
+@media (max-width:575px){
+    .header-btn {
+        display: none;
+    }
+    a.navbar-brand {
+        width: 40%;
+    }
+    span.var-icons {
+        font-size: 22px;
+        display: block;
+        position: absolute;
+        right: 10%;
+    }
+    label.var-icon {
+        visibility: visible !important;
+        opacity: 1;
+        display: block;
+    }
+    .about-image .xxx {
+        position: absolute;
+        right: 26px;
+        top: 68px;
+    }
+    .about-image img {
+        width: 71%;
+    }
+    .about-img-text {
+        position: absolute;
+        right: 0px;
+        bottom: -120px;
+        max-width: 350px;
+        height: 139px;
+        width: 450px;
+    }
+    .about-img-text h2 {
+        position: absolute;
+        top: 20px;
+        left: 101px;
+        font-weight: 400;
+        font-size: 55px;
+
+    }
+    .about-img-text p {
+        font-size: 15px;
+    }
+    ul.our-primary-menu li:hover ul {
+        width: 172px;
+        margin-bottom: -;
+        margin-left: 100px;
+    }
+    ul.our-primary-menu li {
+        margin-bottom: -6px;
+    }
+    body .btn-primary {
+        padding: 5px 24px;
+    }
+    ul.our-primary-menu {
+        z-index: 11;
+    }
+    .slider-content h6 {
+        margin-top: -80px;
+    }
+    .sticky-top {
+        position: inherit;
+    }
+    .slider-content h1 {
+        font-size: 24px;
+    }
+    .slider-content p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .company-text-fast h2 {
+        font-size: 30px;
+    }
+    .company-text h2 {
+        font-size: 25px;
+    }
+    .company-text p {
+        font-size: 15px;
+    }
+    .right-side h2 {
+        font-size: 22px;
+    }
+    .aply-title h2 {
+        font-size: 27px;
+    }
+    .services-tab-content-text h1 {
+        font-size: 20px;
+    }
+    .blog-content h3 a {
+        font-size: 20px;
+    }
+    .footer-widget img {
+        width: 30%;
+    }
+    .footer-widget p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .footer-widget ul li {
+        padding: 5px 0;
+    }
+    .footer a {
+        font-size: 14px;
+    }
+    .footer-widget h3 {
+        font-size: 20px;
+        padding-bottom: 9px;
+        margin-bottom: -2px;
+    }
+    .footer-contact-item {
+        margin-top: 10px;
+    }
+    .footer-down.text-center.p-3 {
+        font-size: 14px;
+    }
+    a.for-imgs img {
+        width: 60%;
+    }
+    .team-img {
+        text-align: center;
+    }
+}
